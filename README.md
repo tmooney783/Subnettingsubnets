@@ -51,6 +51,7 @@ There are 64 hosts available in each network.
 To find this, I used 2^6-2.
 
 **^6 because of the 6 remaining 0's in the host section of the binary mask.**
+
 **-2 because 0 is always reserved for the network address and 255 is always reserved for the broadcast address.**
 
 I then logically seperated the network into 4 smaller subnetworks by assigning hosts ip addresses from the 4 ranges.
